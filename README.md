@@ -6,19 +6,17 @@ The original implementation is preserved at <https://github.com/negosim/negosim>
 
 ## Project status
 
-**Phase 0 — Legacy baseline and project setup** is in progress. The legacy implementation has been inspected from the available source archive; the initial findings are recorded in [`docs/00-project/LEGACY_BASELINE.md`](docs/00-project/LEGACY_BASELINE.md).
-
-No new negotiation behavior has been implemented yet. Requirements and design decisions will be agreed before the new implementation begins.
+**Phase 1 — Requirements Engineering**. Requirements are being documented and reviewed before domain modeling, architecture decisions, or implementation.
 
 ## Development approach
 
 1. Establish a baseline for the legacy implementation.
-2. Define functional and non-functional requirements.
+2. Define and review functional and non-functional requirements.
 3. Formalize the domain model and terminology.
 4. Document architecture and key decisions before implementation.
 5. Implement in small, tested increments while comparing behavior with the legacy reference.
 
-See [`docs/00-project/DEVELOPMENT_WORKFLOW.md`](docs/00-project/DEVELOPMENT_WORKFLOW.md) for the working agreements.
+See [`docs/00-project/DEVELOPMENT_WORKFLOW.md`](docs/00-project/DEVELOPMENT_WORKFLOW.md) for the working agreements and [`docs/01-requirements/`](docs/01-requirements/) for requirements.
 
 ## Legacy reference
 
@@ -27,4 +25,4 @@ See [`docs/00-project/DEVELOPMENT_WORKFLOW.md`](docs/00-project/DEVELOPMENT_WORK
 
 ## License
 
-The licensing and attribution approach for the new implementation must be confirmed against the original repository's license before source code is copied or adapted. See the legacy repository's `LICENSE.md`.
+The supplied legacy source archive includes a GNU GPL version 3 license. If code is reused or adapted, the new distribution must respect that license. The current plan is to use GPL-3.0-only for a code-derived rebuild and include `CITATION.cff` for scientific citation; verify provenance and final license files before release.
